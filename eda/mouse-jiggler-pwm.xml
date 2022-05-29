@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>X:\Programming\mech-mouse-jiggler\eda\mouse-jiggler-pwm.sch</source>
+    <date>5/29/2022 2:57:55 PM</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Mouse Jiggler PWM</title>
+        <company/>
+        <rev>v1</rev>
+        <date>2022-05-27</date>
+        <source>mouse-jiggler-pwm.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value="License: MIT"/>
+        <comment number="4" value="Barrett Otte"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62913B9F</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>RED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62919DFD</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6291C2D2</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DPDT_x2</value>
+      <footprint>100SP1T1B4M2QE-Switch:100SP1T1B4M2QE</footprint>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62921C8A</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>NE555P</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne555.pdf</datasheet>
+      <libsource lib="Timer" part="NE555P" description="Precision Timers, 555 compatible,  PDIP-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62929C87</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6293ED14</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6293FC71</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62942D93</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6294585B</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_US" description="Potentiometer, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629411C3</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62939206</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62937ED9</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRFZ44NPBF</value>
+      <footprint>IRFZ44NPBF:TO254P483X1016X1994-3P</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irfz44npbf.pdf?fileId=5546d462533600a40153563b3a9f220d</datasheet>
+      <fields>
+        <field name="Description">MOSFET N-Channel 55V 49A TO220AB Infineon IRFZ44NPBF N-channel MOSFET Transistor, 49 A, 55 V, 3-Pin TO-220AB</field>
+        <field name="Height">4.83</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRFZ44NPBF</field>
+        <field name="Mouser Part Number">942-IRFZ44NPBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRFZ44NPBF?qs=9%252BKlkBgLFf24zghzPg2f9g%3D%3D</field>
+      </fields>
+      <libsource lib="mouse-jiggler-pwm-rescue" part="IRFZ44NPBF-IRFZ44NPBF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6292C446</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N47xxA</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/85816/1n4728a.pdf</datasheet>
+      <libsource lib="Diode" part="1N47xxA" description="1300mW Silicon planar power Zener diodes, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62932698</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1u</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6293D3D9</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295F6DA</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT_US">
+      <description>Potentiometer, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <aliases>
+        <alias>1N4448</alias>
+        <alias>1N4149</alias>
+        <alias>1N4151</alias>
+        <alias>1N914</alias>
+        <alias>BA243</alias>
+        <alias>BA244</alias>
+        <alias>BA282</alias>
+        <alias>BA283</alias>
+        <alias>BAV17</alias>
+        <alias>BAV18</alias>
+        <alias>BAV19</alias>
+        <alias>BAV20</alias>
+        <alias>BAV21</alias>
+        <alias>BAW75</alias>
+        <alias>BAW76</alias>
+        <alias>BAY93</alias>
+      </aliases>
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="ZPYxx">
+      <aliases>
+        <alias>1N47xxA</alias>
+        <alias>ZYxxx</alias>
+      </aliases>
+      <description>1300mW Zener Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/85790/zpy3v9.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZPYxx</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPDT_x2">
+      <description>Switch, dual pole double throw, separate symbols</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPDT_x2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer" part="NE555P">
+      <aliases>
+        <alias>LM555xN</alias>
+        <alias>ICM7555xP</alias>
+        <alias>LMC555xN</alias>
+        <alias>MC1455P</alias>
+        <alias>TLC555xP</alias>
+        <alias>NA555P</alias>
+        <alias>SE555P</alias>
+        <alias>SA555P</alias>
+      </aliases>
+      <description>Precision Timers, 555 compatible,  PDIP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ne555.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NE555P</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="mouse-jiggler-pwm-rescue" part="IRFZ44NPBF-IRFZ44NPBF">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRFZ44NPBF-IRFZ44NPBF</field>
+        <field name="Footprint">TO254P483X1016X1994-3P</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/irfz44npbf.pdf?fileId=5546d462533600a40153563b3a9f220d</field>
+        <field name="Description">MOSFET N-Channel 55V 49A TO220AB Infineon IRFZ44NPBF N-channel MOSFET Transistor, 49 A, 55 V, 3-Pin TO-220AB</field>
+        <field name="Height">4.83</field>
+        <field name="Mouser Part Number">942-IRFZ44NPBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRFZ44NPBF?qs=9%252BKlkBgLFf24zghzPg2f9g%3D%3D</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRFZ44NPBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="CAP">
+      <aliases>
+        <alias>C</alias>
+      </aliases>
+      <description>Capacitor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>D:\Programs\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\Programs\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>D:\Programs\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>D:\Programs\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+    <library logical="Timer">
+      <uri>D:\Programs\KiCad\share\kicad\library/Timer.lib</uri>
+    </library>
+    <library logical="mouse-jiggler-pwm-rescue">
+      <uri>X:\Programming\mech-mouse-jiggler\eda/mouse-jiggler-pwm-rescue.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>D:\Programs\KiCad\share\kicad\library/pspice.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="Q1" pin="3"/>
+      <node ref="R4" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="3" name="Net-(R3-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="4" name="Net-(Q1-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C1-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C1" pin="1"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D4-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad1)">
+      <node ref="RV1" pin="3"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad2)">
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="9" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="RV1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D3-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="11" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="12" name="Net-(D3-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="4"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+  </nets>
+</export>
