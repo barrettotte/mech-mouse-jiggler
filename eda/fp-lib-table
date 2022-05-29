@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "toggle switch")(type KiCad)(uri X:/eda/toggle-switch)(options "")(descr ""))
+  (lib (name IRFZ44NPBF)(type KiCad)(uri X:/eda/IRFZ44NPBF)(options "")(descr ""))
+)
