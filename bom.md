@@ -17,7 +17,7 @@
 | Q1             | IRFZ44N MOSFET           | 1        | IRFZ44NLPBF-ND      | https://www.digikey.com/en/products/detail/infineon-technologies/IRFZ44NLPBF/811989 |
 | U1             | NE555P IC                | 1        | 296-NE555P-ND       | https://www.digikey.com/en/products/detail/texas-instruments/NE555P/277057 |
 | -              | 8 pin DIP socket         | 1        | 1175-1486-ND        | https://www.digikey.com/en/products/detail/cnc-tech/245-08-1-03/3441579 |
-| -              | Female barrel socket     | 1        | CP-102A-ND          | https://www.digikey.com/en/products/detail/cui-devices/PJ-102A/275425 |
+| -              | Male barrel jack         | 1        | CP-102A-ND          | https://www.digikey.com/en/products/detail/cui-devices/PJ-102A/275425 |
 
 ## Mechanical
 
