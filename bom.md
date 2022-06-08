@@ -29,7 +29,6 @@
 | M3 Hex Button Cap 12mm              | 11       | 92095A183     | https://www.mcmaster.com/92095A183 |
 | M3 Hex Button Cap 6mm               | 5        | 92095A179     | https://www.mcmaster.com/92095A179 |
 | M3 nut                              | 4        | 90592A085     | https://www.mcmaster.com/90592A085 |
-| M2 Hex Button Cap 4mm               | 3        | 92095A451     | https://www.mcmaster.com/92095A451 |
 | Rubber feet 12mm                    | 6        | -             | https://www.amazon.com/gp/product/B07PXNTT7K |
 
 ## 3D Printed
