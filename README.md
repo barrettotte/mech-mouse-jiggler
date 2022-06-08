@@ -16,9 +16,13 @@ Definitely not perfect and I kept finding flaws. But, it was good enough for the
 
 ![docs/motion-study.gif](docs/motion-study.gif)
 
-TODO: pictures of overall project
+![docs/finished-front.jpg](docs/finished-front.jpg)
 
-TODO: video of mouse moving
+![docs/finished-back.jpg](docs/finished-back.jpg)
+
+![docs/test-front.mp4](docs/test-front.mp4)
+
+![docs/test-back.mp4](docs/test-back.mp4)
 
 ## PWM Circuit
 
