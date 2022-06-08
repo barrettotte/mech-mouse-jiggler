@@ -2,17 +2,31 @@
 
 A very impractical and stupid mouse jiggler using a crank mechanism, 12V DC motor, and a PWM circuit.
 
-This project was made to get better with CAD in Fusion360 and learn how to make PCBs in KiCad.
+## Purpose
+
+I wanted a basic project with some gears, a mechanical movement, and a DC motor. 
+So this was the simplest thing I could think of; Move a mouse back and forth.
+
+The mechanical movement and gears gave me more experience with components/joints in Fusion 360.
+I also took the opportunity to learn KiCad and design a PCB for my basic PWM circuit.
+
+## PWM Circuit
+
+TODO: picture of schematic
 
 TODO: picture of prototype circuit
 
-TODO: picture of schematic, PCB layout, and 3D PCB
+TODO: picture of PCB layout, and 3D PCB
 
 TODO: picture of PCB blank
 
 TODO: picture of PCB assembled
 
 TODO: picture of PCB mounted
+
+## Finished Project
+
+Definitely not perfect and I kept finding flaws. But, it was good enough for the project scope I made.
 
 TODO: pictures of overall project
 
