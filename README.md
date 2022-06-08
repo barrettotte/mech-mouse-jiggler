@@ -10,6 +10,16 @@ So this was the simplest thing I could think of; Move a mouse back and forth.
 The mechanical movement and gears gave me more experience with components/joints in Fusion 360.
 I also took the opportunity to learn KiCad and design a PCB for my basic PWM circuit.
 
+## Finished Project
+
+Definitely not perfect and I kept finding flaws. But, it was good enough for the project scope I made.
+
+![docs/motion-study.gif](docs/motion-study.gif)
+
+TODO: pictures of overall project
+
+TODO: video of mouse moving
+
 ## PWM Circuit
 
 ![docs/pwm-schematic.PNG](docs/pwm-schematic.PNG)
@@ -27,14 +37,6 @@ I also took the opportunity to learn KiCad and design a PCB for my basic PWM cir
 ![docs/pcb-assembled.jpg](docs/pcb-assembled.jpg)
 
 ![docs/assembled-1.jpg](docs/assembled-1.jpg)
-
-## Finished Project
-
-Definitely not perfect and I kept finding flaws. But, it was good enough for the project scope I made.
-
-TODO: pictures of overall project
-
-TODO: video of mouse moving
 
 ## References
 
