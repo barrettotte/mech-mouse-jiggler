@@ -45,7 +45,7 @@ Creality Ender-3 Pro - 0.4mm nozzle, 0.2mm layer height, 20% infill
 | Bevel gear motor  | 1        | [cad/bevel_gear_motor.3mf](cad/bevel_gear_motor.3mf) |
 | Bevel gear wheel  | 1        | [cad/bevel_gear_wheel.3mf](cad/bevel_gear_wheel.3mf) |
 | Coupler           | 1        | [cad/coupler.3mf](cad/coupler.3mf) |
-| Electronics Cover | 1        | [cad/electronics_cover.3mf](cad/electronics_cover.3mf] |
+| Electronics Cover | 1        | [cad/electronics_cover.3mf](cad/electronics_cover.3mf) |
 | Load arm          | 1        | [cad/load_arm.3mf](cad/load_arm.3mf) |
 | Motor mount       | 1        | [cad/motor_mount.3mf](cad/motor_mount.3mf) |
 | Mouse clamp       | 1        | [cad/mouse_clamp.3mf](cad/mouse_clamp.3mf) |
