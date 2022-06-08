@@ -1,14 +1,24 @@
 # mech-mouse-jiggler
 
-A very impractical mouse jiggler
+A very impractical and stupid mouse jiggler using a crank mechanism, 12V DC motor, and a PWM circuit.
 
-TODO: picture
+This project was made to get better with CAD in Fusion360 and learn how to make PCBs in KiCad.
 
-TODO: video
+TODO: picture of prototype circuit
 
-## Setup
+TODO: picture of schematic, PCB layout, and 3D PCB
 
-TODO:
+TODO: picture of PCB blank
+
+TODO: picture of PCB assembled
+
+TODO: picture of PCB mounted
+
+TODO: pictures of overall project
+
+TODO: video of mouse moving
+
+TODO: link to youtube video testing crank
 
 ## References
 
