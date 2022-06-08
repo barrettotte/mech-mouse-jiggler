@@ -44,6 +44,7 @@ https://user-images.githubusercontent.com/15623775/172682868-b304a3e7-49c9-4841-
 
 ## References
 
+- [507 Movements #92](http://507movements.com/mm_092.html)
 - [507 Movements #114](http://507movements.com/mm_114.html)
 - [KHK Gear Reference](https://khkgears.net/new/gear_knowledge/gear_technical_reference/involute_gear_profile.html)
 - [555 Timer PWM circuit](http://www.555-timer-circuits.com/motor-pwm.html)
