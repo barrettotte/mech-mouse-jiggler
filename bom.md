@@ -35,5 +35,20 @@
 
 Creality Ender-3 Pro - 0.4mm nozzle, 0.2mm layer height, 20% infill
 
-| Name | Quantity | Model |
-| ---- | -------- | ----- |
+| Name              | Quantity | Model |
+| ----------------- | -------- | ----- |
+| Arm               | 1        | [cad/arm.3mf](cad/arm.3mf) |
+| Arm connector     | 2        | [cad/arm_connector.3mf](cad/arm_connector.3mf) |
+| Base              | 1        | [cad/base.3mf](cad/base.3mf) |
+| Base electonics   | 1        | [cad/base_electronics.3mf](cad/base_electronics.3mf) |
+| Bearing cap       | 3        | [cad/bearing_cap.3mf](cad/bearing_cap.3mf) |
+| Bevel gear motor  | 1        | [cad/bevel_gear_motor.3mf](cad/bevel_gear_motor.3mf) |
+| Bevel gear wheel  | 1        | [cad/bevel_gear_wheel.3mf](cad/bevel_gear_wheel.3mf) |
+| Coupler           | 1        | [cad/coupler.3mf](cad/coupler.3mf) |
+| Electronics Cover | 1        | [cad/electronics_cover.3mf](cad/electronics_cover.3mf] |
+| Load arm          | 1        | [cad/load_arm.3mf](cad/load_arm.3mf) |
+| Motor mount       | 1        | [cad/motor_mount.3mf](cad/motor_mount.3mf) |
+| Mouse clamp       | 1        | [cad/mouse_clamp.3mf](cad/mouse_clamp.3mf) |
+| Mouse clamp cap   | 2        | [cad/mouse_clamp_cap.3mf](cad/mouse_clamp_cap.3mf) |
+| Wheel spacer      | 3        | [cad/wheel_spacer.3mf](cad/wheel_spacer.3mf) |
+| Wheel             | 1        | [cad/wheel.3mf](cad/wheel.3mf) |
