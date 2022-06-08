@@ -20,9 +20,9 @@ Definitely not perfect and I kept finding flaws. But, it was good enough for the
 
 ![docs/finished-back.jpg](docs/finished-back.jpg)
 
-![docs/test-front.mp4](docs/test-front.mp4)
+https://user-images.githubusercontent.com/15623775/172682833-343187b7-290f-4d06-a3b5-5a9f5e372b6b.mp4
 
-![docs/test-back.mp4](docs/test-back.mp4)
+https://user-images.githubusercontent.com/15623775/172682868-b304a3e7-49c9-4841-98fb-ab1815b85bfa.mp4
 
 ## PWM Circuit
 
