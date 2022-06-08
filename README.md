@@ -12,17 +12,21 @@ I also took the opportunity to learn KiCad and design a PCB for my basic PWM cir
 
 ## PWM Circuit
 
-TODO: picture of schematic
+![docs/pwm-schematic.PNG](docs/pwm-schematic.PNG)
 
-TODO: picture of prototype circuit
+![docs/prototype-pwm.jpg](docs/prototype-pwm.jpg)
 
-TODO: picture of PCB layout, and 3D PCB
+Prototype of PWM circuit
 
-TODO: picture of PCB blank
+[PWM circuit and Crank test](https://youtube.com/shorts/8-THsEUhmM4)
 
-TODO: picture of PCB assembled
+![docs/pwm-pcb-3d.PNG](docs/pwm-pcb-3d.PNG)
 
-TODO: picture of PCB mounted
+![docs/pcb-blank.jpg](docs/pcb-blank.jpg)
+
+![docs/pcb-assembled.jpg](docs/pcb-assembled.jpg)
+
+![docs/assembled-1.jpg](docs/assembled-1.jpg)
 
 ## Finished Project
 
@@ -31,8 +35,6 @@ Definitely not perfect and I kept finding flaws. But, it was good enough for the
 TODO: pictures of overall project
 
 TODO: video of mouse moving
-
-TODO: link to youtube video testing crank
 
 ## References
 
