@@ -16,7 +16,9 @@ I also took the opportunity to learn KiCad and design a PCB for my basic PWM cir
 
 ![docs/prototype-pwm.jpg](docs/prototype-pwm.jpg)
 
-[![PWM circuit and Crank test](https://img.youtube.com/vi/8-THsEUhmM4/0.jpg)](https://youtube.com/shorts/8-THsEUhmM4)
+[![Crank Test 1](https://img.youtube.com/vi/KTGvGtsnRqs/0.jpg)](https://youtube.com/shorts/KTGvGtsnRqs)
+
+[![Crank Test 2](https://img.youtube.com/vi/8-THsEUhmM4/0.jpg)](https://youtube.com/shorts/8-THsEUhmM4)
 
 ![docs/pwm-pcb-3d.PNG](docs/pwm-pcb-3d.PNG)
 
